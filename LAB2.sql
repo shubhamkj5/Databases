@@ -30,10 +30,10 @@
 #SELECT count(*) as Total_Females FROM lab2.details where gender ='M';
 
 #9
-#SELECT avg(age) as AvgAge_Females FROM lab2.details where gender ='F';
+#SELECT round(avg(age),0) as AvgAge_Females FROM lab2.details where gender ='F';
 
 #10
-#SELECT avg(age) as AvgAge_Males FROM lab2.details where gender ='M';
+#SELECT round(avg(age),0) as AvgAge_Males FROM lab2.details where gender ='M';
 
 #11
 #SELECT * FROM lab2.details where age = (Select max(age) from lab2.details);
@@ -54,8 +54,8 @@
 #Select  sum(rate*hours) as wage from  lab2.details where gender ='M' ;
 
 #16
-#SELECT avg(age) as Avg_Age ,department FROM lab2.details group by department;
+#SELECT round(avg(age),0) as Avg_Age ,department FROM lab2.details group by department;
 
 #17
-#SELECT avg(age) as Avg_Age ,position FROM lab2.details group by position;
+#SELECT round(avg(age),0) as Avg_Age ,position FROM lab2.details group by position;
 
