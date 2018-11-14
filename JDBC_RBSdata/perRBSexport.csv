@@ -1,0 +1,4 @@
+RBS_ID,count,Alarm_Description,
+1,1,Electrical Interrupt,
+2,2,Overheated Unit,
+3,3,Overloaded Unit,
